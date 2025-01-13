@@ -1,0 +1,131 @@
+:root {
+ --logo-green: rgb(130,194,71); 
+ --logo-blue: rgb(22,152,199);
+ --logo-red: rgb(178,51,41);
+ --logo-yellow: #FCC03C;
+}
+
+.logo {
+   width: 175px;
+   height: 175px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.logo > .s {
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    transform: rotate(45deg);
+}
+
+.corner {
+    width: 66px;
+    height: 33px;
+    position: absolute;
+} 
+
+.corner.b {
+    border-top: 4px solid var(--logo-blue);
+    border-left: 4px solid var(--logo-blue);
+    transform: rotate(-45deg);
+    left: 33px;
+    top: 75px;
+}
+
+.corner.g {
+    border-top: 4px solid var(--logo-green);
+    border-left: 4px solid var(--logo-green);
+    transform: rotate(45deg);
+    left: 45px;
+    top: 49px;
+}
+
+.corner.y {
+    border-top: 4px solid var(--logo-yellow);
+    border-left: 4px solid var(--logo-yellow);
+    transform: rotate(135deg);
+    left: 71px;
+    top: 62px;
+}
+
+.corner.r {
+    border-top: 4px solid var(--logo-red);
+    border-left: 4px solid var(--logo-red);
+    transform: rotate(-135deg);
+    left: 59px;
+    top: 87px;
+}
+
+
+.logo > .l1 {
+    position: absolute;
+    width: 55px;
+}
+
+.logo > .l2 {
+    position: absolute;
+    width: 40px;
+}
+
+.l1.b {
+    transform: rotate(-45deg);
+    top: 69px;
+    left: 26px;
+    border-top: 4px solid var(--logo-blue);
+
+} 
+
+.l2.b {
+    transform: rotate(-45deg);
+    top: 58px;
+    left: 33px;
+    border-top: 4px solid var(--logo-blue);
+}
+
+.l1.g {
+    transform: rotate(45deg);
+    top: 53px;
+    left: 76px;
+    border-top: 4px solid var(--logo-green);
+
+} 
+
+.l2.g {
+    transform: rotate(45deg);
+    top: 52px;
+    left: 95px;
+    border-top: 4px solid var(--logo-green);
+}
+
+.l1.r {
+    transform: rotate(45deg);
+    top: 116px;
+    left: 43px;
+    border-top: 4px solid var(--logo-red);
+
+} 
+
+.l2.r {
+    transform: rotate(45deg);
+    top: 117px;
+    left: 39px;
+    border-top: 4px solid var(--logo-red);
+}
+
+.l1.y {
+    transform: rotate(-45deg);
+    top: 101px;
+    left: 91px;
+    border-top: 4px solid var(--logo-yellow);
+
+} 
+
+.l2.y {
+    transform: rotate(-45deg);
+    top: 112px;
+    left: 99px;
+    border-top: 4px solid var(--logo-yellow);
+}
